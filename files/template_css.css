@@ -1,0 +1,302 @@
+/*#
+* Sky Blue - A Mambo 4.5.1 template
+* version 1.0
+* package Sky Blue
+* copyright (C)2004 by Net Dreams Inc. - All rights reserved!
+#*/
+
+/* # GENERAL # */
+BODY 
+{
+  color            : #000000;
+  background       : #EEF1EB;
+}
+
+td,tr,p,div 
+{
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 13px;
+  color            : #003300;
+  
+}
+
+ul 
+{
+  margin           : 0px 0px 0px 0px;
+}
+
+
+
+hr
+ {
+  background       : #C0C0C0;
+  height           : 1px;
+  width            : 100%;
+}
+
+table.searchintro 
+{
+  background-color: #FFFFFF;
+  border: solid 1px #777777;
+}
+
+/* # LINKURI # */
+a:link, a:visited
+ {
+  font-size        : 12px;
+  color            : #0000CC;
+  text-decoration  : none;
+}
+
+a:hover 
+{
+  color            : #CC3300;
+  text-decoration  : none;
+}
+
+a.category:link, a.category:visited
+ {
+  color            : #006600;
+  font-weight      : bold;
+}
+
+a.category:hover 
+{
+  color            : #339933;
+}
+
+/* # MENIU PRINCIPAL # */
+
+.mainlevel 
+{
+
+  }
+
+a.mainlevel:link, a.mainlevel:visited
+ {
+
+	display: block;
+	background: ;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003300;
+	text-align: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 18px;
+	height: 24px;
+	width: 100%;
+	text-decoration: none;
+}
+
+a.mainlevel:hover
+ {
+	display: block;
+         background-color: #EEF1EB;
+         text-align: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	height: 24px;
+	text-decoration: none;
+	color: #004400;
+}
+
+
+
+
+/* # MODULE # */
+table.moduletable 
+{
+  width            : 100%;
+  margin-bottom    : 5px;
+   padding-top: 9px;
+}
+
+table.moduletable th
+ {
+	background: ;
+	color: #666666;
+	text-align: left;
+	padding-left: 4px;
+	padding-bottom: 4px;
+          border-bottom: 3px solid #006600;
+	height: 21px;
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+li
+{
+line-height: 15px;
+padding-left: 15px;
+padding-bottom: 4px;
+background-image: url(/web/20110227203621im_/http://www.berkshiretownhomes.com/templates/berkshire_townhomes/css/images/arrow.png) ;
+background-repeat: no-repeat;
+background-position: 0px 3px;
+}
+
+
+.newsflash 
+{
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #00467A;
+ text-transform   : uppercase;
+
+}
+
+
+.frameheader 
+{
+  font             : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 18px;
+  font-weight      : none;
+  color            : #ADC1D2;
+}
+
+.poll
+ {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #666666;
+  line-height      : 15px
+}
+
+/* # FORMULAR # */
+
+.inputbox
+ {
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #003300;
+  background       : #F8F9F7;
+  border           : 1px solid #006600;
+}
+
+/* # CONTINUT # */
+.contentpane 
+{
+  text-align       : justify;
+  padding-left     : 5px;
+  padding-right    : 5px;
+ 
+}
+ .button 
+{
+	padding: 2px 5px 2px 5px;
+	height: 22px;
+	border:solid 1px #cccccc;
+	background-color: #ffffff;
+	color: #003300;
+	font-family: Arial, Helvetica, Sans Serif;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+
+.contentpaneopen 
+{
+  text-align       : justify;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  
+
+}
+
+.contentheading, .componentheading 
+{
+ 	height: 30px;
+	background: url(/web/20110227203621im_/http://www.berkshiretownhomes.com/templates/berkshire_townhomes/images/contenthead.png)  repeat-x;
+	color: #000000;
+	text-align: left;
+	padding-left: 2px;
+	font-weight: bold;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+
+.contentdescription 
+{
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  color            : #333333;
+  text-align       : left;
+}
+
+.category 
+{
+  color            : #999999;
+  font-family      : Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+}
+
+
+/* # LISTAREA SECTIUNILOR # */
+.sectiontableheader 
+{
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 4px;
+}
+
+.sectiontablefooter 
+{
+
+}
+
+.sectiontableentry1 
+{
+	background-color : #ffffff;
+}
+
+.sectiontableentry2
+ {
+	background-color : #f9f9f9;
+}
+
+/* # FONTURI MICI # */
+.small 
+{
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #7492AB;
+  text-decoration  : none;
+  font-weight      : normal;
+}
+
+.smalldark 
+{
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #000000;
+  font-weight      : normal;
+}
+/*
+     FILE ARCHIVED ON 20:36:21 Feb 27, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:52:06 Aug 12, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 101.595
+  exclusion.robots: 0.274
+  exclusion.robots.policy: 0.151
+  RedisCDXSource: 2.107
+  esindex: 0.01
+  LoadShardBlock: 72.067 (3)
+  PetaboxLoader3.datanode: 285.376 (4)
+  CDXLines.iter: 23.443 (3)
+  load_resource: 328.206
+  PetaboxLoader3.resolve: 43.469
+*/
